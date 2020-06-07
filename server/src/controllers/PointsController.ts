@@ -47,7 +47,7 @@ export default class PointsController {
     const trx = await Knex.transaction();
 
     const point = {
-      image: 'image-fake',
+      image: 'https://images.unsplash.com/photo-1543083477-4f785aeafaa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
       name,
       email,
       whatsapp,
